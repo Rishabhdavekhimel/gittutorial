@@ -3,7 +3,10 @@ import { Progress } from "@/components/ui/progress";
 import { InfinityIcon, X } from "lucide-react";
 import { useExitModal } from "@/store/use-exit-modal";
 import { SWRConfig } from 'swr';
-import useSWRInfinite from "swr/infinite";
+import useSWRInfinite from "swr";
+/* eslint-disable @typescript-eslint/no-unused-vars */
+// Your code
+
 
 
 type Props = {
