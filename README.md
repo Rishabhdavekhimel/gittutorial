@@ -12,14 +12,13 @@ You can download Git from Git's official website.
 Download Node.js from Node.js official website.
 Steps to Set Up
 1. Clone the Repository
-Clone this repository to your local machine:
-
+Clone this repository to your local machine:---
 bash
 Copy code
 git clone <repository-url>  
 
 2. Configure Environment Variables
-Create a .env file in the root directory with the following content:
+Create a .env file in the root directory with the following content:---
 
 .env
 Copy code
@@ -34,7 +33,7 @@ CLERK_SECRET_KEY=sk_test_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 DATABASE_URL="postgresql://<user>:<password>@<host>:<port>/lingo?sslmode=require"  
 
 # Stripe API keys  
-STRIPE_API_SECRET= XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
+STRIPE_API_SECRET_KEY= XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
 STRIPE_WEBHOOK_SECRET=whsec_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
 
 # Public app URL  
@@ -43,7 +42,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 # Clerk admin user IDs (comma-separated for multiple admins)  
 CLERK_ADMIN_IDS="user_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx, user_xxxxxxxxxxxxxxxxxxxxxx"  
 
-3. Obtain Required Keys
+3.Obtain Required Keys:---
 Clerk Authentication Keys
 Log in to your Clerk Dashboard.
 Navigate to the settings or API keys section.
@@ -59,23 +58,23 @@ Log in to your Stripe Dashboard.
 Navigate to API keys and webhooks settings.
 Copy the STRIPE_API_SECRET_KEY and STRIPE_WEBHOOK_SECRET.
 
-5. Install Dependencies
+5. Install Dependencies:---
 Install project dependencies using either of the following commands:
 bash
 Copy code
 npm install --legacy-peer-deps  
 
-5. Seed the Database
+5. Seed the Database:---
 Run the seed script to populate the database:
 bash
 Copy code
 npm run db:push && npm run db:prod  
 This script runs a TypeScript file (scripts/prod.ts) and seeds the database with the required challenges data.
 
-6. Verify Database Data
+6. Verify Database Data:---
 Check your database to confirm the challenges data has been successfully seeded.
 
-7. Start the Application
+7. Start the Application:---
 Run the application using one of the following commands:
 bash
 Copy code
