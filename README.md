@@ -87,8 +87,11 @@ Notes
 Replace placeholder values (e.g., <user>, <password>, <repository-url>) with actual values.
 Keep your .env file secure and do not expose it publicly. Use .gitignore to prevent committing it to the repository.
 For deployment, update NEXT_PUBLIC_APP_URL to the URL of your deployed application.
+
 Now you're all set! 🎉 Start using the application and enjoy the features.
-![img2](https://github.com/user-attachments/assets/278020b2-d241-4886-ad41-8f2ac1![img3](https://github.com/user-attachments/assets/f7925c1c-3038-43bd-a2a4-9124f3556356)
-ada846)
-![Uploading img3.png…]()
+
+
+
+![img2](https://github.com/user-attachments/assets/e7e0890d-b2b9-4234-a169-33561b4286f2)
+![img3](https://github.com/user-attachments/assets/3d0f907f-7ec6-4a4a-88e8-3a57dc57df73)
 
